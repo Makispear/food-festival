@@ -30,10 +30,11 @@ module.exports = {
                 }
               }
             },
-            // error when uncommented 
-            // {
-            //   loader: 'image-webpack-loader'
-            // }
+            // error when uncommented
+            //fixed it by going into node_modules/image-webpack-loader/index.js and commenting out lines 71 and 72 
+            {
+              loader: 'image-webpack-loader'
+            }
           ]
         }
       ]
